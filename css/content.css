@@ -1,0 +1,15 @@
+body{
+	font-family: 'SegoeUI reg';
+}
+
+.container{
+	max-width: 1430px;
+	padding: 0 15px;
+	margin: 0 auto;
+
+}
+.content {
+	padding: 185px 0 0 0;
+}
+
+

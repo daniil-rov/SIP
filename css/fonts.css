@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'SegoeUI reg';
+	src: url('../fonts/segoeui.eot');
+	src: local('вє'), url('../fonts/segoeui.woff') format('woff'), url('../fonts/segoeui.ttf') format('truetype'), url('../fonts/segoeui.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SegoeUI s-b';
+	src: url('../fonts/segoeui.eot');
+	src: local('вє'), url('../fonts/segoeui.woff') format('woff'), url('../fonts/segoeui.ttf') format('truetype'), url('../fonts/segoeui.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SegoeUI bold';
+	src: url('../fonts/segoeuib.eot');
+	src: local('вє'), url('../fonts/segoeuib.woff') format('woff'), url('../fonts/segoeuib.ttf') format('truetype'), url('../fonts/segoeuib.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Raleway-Regular';
+	src: url('../fonts/Raleway-Regular.eot');
+	src: local('вє'), url('../fonts/Raleway-Regular.woff') format('woff'), url('../fonts/Raleway-Regular.ttf') format('truetype'), url('../fonts/Raleway-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway-SemiBold';
+	src: url('../fonts/Raleway-Regular.eot');
+	src: local('вє'), url('../fonts/Raleway-Regular.woff') format('woff'), url('../fonts/Raleway-Regular.ttf') format('truetype'), url('../fonts/Raleway-Regular.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}

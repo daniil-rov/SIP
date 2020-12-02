@@ -1,0 +1,174 @@
+.calculator {
+	display: flex;
+	flex-direction: column;
+}
+.calculator-top {
+	padding: 120px 0;
+	background-image: url(../img/calculator/main-img.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #443434;
+}
+.calculator-top__content {
+	text-align: center;
+	max-width: 530px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+.calculator-top__title {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'SegoeUI bold';
+	font-size: 40px;
+	margin: 0 0 50px 0;
+}	
+.calculator-top__subtitle {
+	color: #ffffff;
+	font-family: 'SegoeUI s-b';
+	font-size: 20px;
+	line-height: 25px;
+	margin: 0 0 15px;
+}
+.calculator-top__input-area {
+	margin: 0 0 35px 0;
+}
+.calculator-top__form {
+	text-align: center;
+}
+.input {
+	width: 500px;
+	display: block;
+	padding: 0 15px;
+	height: 50px;
+	border-radius: 4px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	color: #1e1f21;
+	font-size: 14px;
+	line-height: 20px;
+}
+.calculator-top__size-selection {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 25px 0;
+}
+.calculator-top__size-selection li{
+	color: #f5f5f5;
+	font-family: 'SegoeUI s-b';
+	font-size: 16px;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+.calculator-top__result {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 18px 0;
+	color: #ffffff;
+	font-size: 24px;
+	font-family: 'SegoeUI bold';
+	line-height: 28px;
+	}
+.calculator-top__result span{
+	color: #edcd27;
+	font-family: 'SegoeUI bold';
+	font-size: 42px;
+	line-height: 21px;
+	text-transform: uppercase;
+	padding: 0 10px;
+}
+.calculator-top__text {
+	color: #ffffff;
+	font-family: 'SegoeUI reg';
+	line-height: 23px;
+	margin: 0 0 37px 0;
+}
+.calculator-top__buttons {
+	display: flex;
+	justify-content: space-between;
+}
+.calculator-top__buttons a{
+	width: 230px;
+	height: 60px;
+	border-radius: 68px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	font-family: 'SegoeUI s-b';
+	font-size: 16px;
+	line-height: 21px;
+}
+.calculator-top__buttons a:first-child{
+	box-shadow: 0 3px 6px rgba(87, 55, 16, 0.15);
+	background-color: #fb961f;
+	background-image: linear-gradient(NaNdeg, rgba(189, 131, 18, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.calculator-top__buttons a:last-child{
+	border: 1px solid #ffffff;
+}
+.calculator-top__buttons a:last-child:hover{
+	box-shadow: 0 3px 6px rgba(87, 55, 16, 0.15);
+	background-color: #fb961f;
+	border: 1px solid #fb961f;
+	background-image: linear-gradient(NaNdeg, rgba(189, 131, 18, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+@media (max-width: 767px) {
+	.calculator-top__content {
+		max-width: none;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+	.calculator-top__title {
+		font-size: 30px;
+		margin: 0 0 30px 0;
+	}	
+	.calculator-top__subtitle {
+		font-size: 18px;
+		line-height: 25px;
+		margin: 0 0 15px;
+	}
+	.calculator-top__input-area {
+		margin: 0 0 20px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.input {
+		width: 290px;
+	}
+	.calculator-top__size-selection {
+		margin: 0 0 20px 0;
+	}
+	.calculator-top__size-selection li{
+		font-size: 14px;
+	}
+	.calculator-top__result {
+		font-size: 18px;
+		line-height: 22px;
+		}
+	.calculator-top__result span{
+		white-space: nowrap;
+		font-size: 30px;
+	}
+	.calculator-top__buttons {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 500px) {
+	.calculator-top__buttons a{
+		width: 230px;
+		height: 50px;
+	}
+	.calculator-top__buttons a:first-child{
+		margin: 0 0 20px 0;
+	}
+	.calculator-top__buttons {
+		max-width: 230px;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+}
